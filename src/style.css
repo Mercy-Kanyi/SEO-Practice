@@ -18,11 +18,11 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h3 {
@@ -97,4 +97,14 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+@media (max-width: 576px) {
+	h1 {
+		font-size: 50px;
+	}
+	.project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+	}
 }
